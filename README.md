@@ -24,6 +24,11 @@
 
 আমাদের আড্ডা requires [Node.js](https://nodejs.org/)  to run.
 
+Clone the app
+```sh
+git clone https://github.com/mzhj19/LiveChat.git
+```
+
 Install the dependencies and devDependencies and start the server.
 
 ```sh
