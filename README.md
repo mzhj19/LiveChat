@@ -15,7 +15,7 @@
 - আমাদের আড্ডা has no limitation on user numbers.Unlimited users can participate in the live chatting.
 
 ![](https://github.com/mzhj19/LiveChat/blob/main/public/image/No%20limitation.PNG)
-- If one user is writting something for sending as message,the other participants can see lively on the screen.
+- If one user is writting something for sending as message,the other participants can see lively who is writting message.
 
 ![](https://github.com/mzhj19/LiveChat/blob/main/public/image/typingRecog.PNG)
 
