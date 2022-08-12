@@ -25,12 +25,12 @@ http.listen(PORT,()=>{  // socket works on http
 io.on('connection',(socket) =>{   // socket comming from the client
     console.log(`Client is connected ${socket.id}`);
 
-    // get UserMessage even from client
+    // get UserMessage event from client
     socket.on("userMessage",(data)=>{
         io.sockets.emit("userMessage",data)
     })
 
-    // get UserTyping even from client
+    // get UserTyping event from client
     socket.on('userTyping',(data)=>{
         socket.broadcast.emit('userTyping',data)
     })
